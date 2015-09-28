@@ -10,4 +10,10 @@ xroot = sqrt(x);
 xroot;
 % Take the mean - Equation 11.4
 exroothat = mean(xroot);
-disp(exroothat);
+fprintf('exroothat = %5.4f \n',exroothat);
+%
+% Now get it using numerical integration
+myfun = @(x) sqrt(x).*exp(-x);
+% quadl is a MATLAB 6 function
+exroottru = integral(myfun,0,50);
+fprintf('exroottru = %5.4f \n',exroottru);
