@@ -1,5 +1,6 @@
 % Metropolis-Hastings sampler
 % By Sam Friedman
+% ref: Martinez, "Computational Statistics Handbook with MATLAB"
 % Created: 9/29/2015
 %
 % Function for Cauchy distribution

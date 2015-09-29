@@ -1,5 +1,6 @@
 % Monte Carlo testing...
 % by: Sam Friedman (samfriedman@tamu.edu)
+% ref: Martinez, "Computational Statistics Handbook with MATLAB"
 
 % Generate 500 exponential random
 % variables with lambda = 1.
