@@ -17,3 +17,4 @@ myfun = @(x) sqrt(x).*exp(-x);
 % quadl is a MATLAB 6 function
 exroottru = integral(myfun,0,50);
 fprintf('exroottru = %5.4f \n',exroottru);
+a = 4 * 4;
