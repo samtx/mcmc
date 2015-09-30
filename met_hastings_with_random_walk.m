@@ -62,3 +62,18 @@ for i = 2:n
         X3(i) = X3(i-1);
     end
 end
+% graph results
+xx = 1:size(X1,2);
+xx1 = [1:size(X1,2);X1];
+xx2 = [1:size(X2,2);X2];
+xx3 = [1:size(X3,2);X3];
+pos_twos = zeros(size(xx));
+neg_twos = zeros(size(xx));
+pos_twos(:) = 2;
+neg_twos(:) = -2;
+subplot(3,1,1)
+plot(xx,X1(1,:),xx,pos_twos,xx,neg_twos)
+subplot(3,1,2)
+plot(xx,X2(1,:),xx,pos_twos,xx,neg_twos)
+subplot(3,1,3)
+plot(xx,X3(1,:),xx,pos_twos,xx,neg_twos)
